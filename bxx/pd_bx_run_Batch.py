@@ -37,43 +37,43 @@ Time_End = datetime.datetime.now()
 hl_time = get_datetime3(0)
 
 # 跑明天数
-# yesterday_time = get_datetime3(-1)
-# today_time = get_datetime3(0)
-# tomorrow_time = get_datetime3(1)
-#
-# date_fetch = get_datetime3(-3)
-# date_before2 = get_datetime3(0)
-# date_before3 = get_datetime3(-1)
-# date_before4 = get_datetime3(-2)
-# date_before5 = get_datetime3(-3)
-# date_before7 = get_datetime3(-5)
-# date_before10 = get_datetime3(-8)
-# date_before15 = get_datetime3(-13)
-# date_before20 = get_datetime3(-18)
-# date_before30 = get_datetime3(-28)
-# date_before40 = get_datetime3(-38)
-# date_before60 = get_datetime3(-58)
-# date_before90 = get_datetime3(-88)
-# date_before120 = get_datetime3(-118)
+yesterday_time = get_datetime3(-1)
+today_time = get_datetime3(0)
+tomorrow_time = get_datetime3(1)
+
+date_fetch = get_datetime3(-3)
+date_before2 = get_datetime3(0)
+date_before3 = get_datetime3(-1)
+date_before4 = get_datetime3(-2)
+date_before5 = get_datetime3(-3)
+date_before7 = get_datetime3(-5)
+date_before10 = get_datetime3(-8)
+date_before15 = get_datetime3(-13)
+date_before20 = get_datetime3(-18)
+date_before30 = get_datetime3(-28)
+date_before40 = get_datetime3(-38)
+date_before60 = get_datetime3(-58)
+date_before90 = get_datetime3(-88)
+date_before120 = get_datetime3(-118)
 
 # 跑今天数
-yesterday_time = get_datetime3(-2)
-today_time = get_datetime3(-1)
-tomorrow_time = get_datetime3(0)
-
-date_fetch = get_datetime3(-4)
-date_before3 = get_datetime3(-2)
-date_before4 = get_datetime3(-3)
-date_before5 = get_datetime3(-4)
-date_before7 = get_datetime3(-6)
-date_before10 = get_datetime3(-9)
-date_before15 = get_datetime3(-14)
-date_before20 = get_datetime3(-19)
-date_before30 = get_datetime3(-29)
-date_before40 = get_datetime3(-39)
-date_before60 = get_datetime3(-59)
-date_before90 = get_datetime3(-89)
-date_before120 = get_datetime3(-119)
+# yesterday_time = get_datetime3(-2)
+# today_time = get_datetime3(-1)
+# tomorrow_time = get_datetime3(0)
+#
+# date_fetch = get_datetime3(-4)
+# date_before3 = get_datetime3(-2)
+# date_before4 = get_datetime3(-3)
+# date_before5 = get_datetime3(-4)
+# date_before7 = get_datetime3(-6)
+# date_before10 = get_datetime3(-9)
+# date_before15 = get_datetime3(-14)
+# date_before20 = get_datetime3(-19)
+# date_before30 = get_datetime3(-29)
+# date_before40 = get_datetime3(-39)
+# date_before60 = get_datetime3(-59)
+# date_before90 = get_datetime3(-89)
+# date_before120 = get_datetime3(-119)
 
 # endregion
 
@@ -334,8 +334,8 @@ NUANWA = [
 	# ('CMCC_dpi_aitao_BS028_55', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_55', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_55', 'BS028_55'), date_before3, date_before3, 200000)),
 	# ('CMCC_dpi_aitao_BS028_60', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_60', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_60', 'BS028_60'), date_before3, date_before3, 200000)),
 	# ('CMCC_dpi_aitao_BS028_65', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_65', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 3000)),
-	('CMCC_dpi_aitao_BS028_65_badclick', pd_bx_ALLSQL.bx_aitao_badclick.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_65_badclick', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 1500)),
-	('CMCC_dpi_aitao_BS028_65_badclick', pd_bx_ALLSQL.bx_aitao_badclick.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_aitao_BS028_65_badclick', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 1500)),
+	('CMCC_dpi_aitao_BS028_65_badclick', pd_bx_ALLSQL.bx_aitao_badclick.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_65_badclick', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 1186)),
+	('CMCC_dpi_aitao_BS028_65_badclick', pd_bx_ALLSQL.bx_aitao_badclick.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_aitao_BS028_65_badclick', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 1186)),
 	# ('CMCC_dpi_aitao_BS028_70', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_70', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_70', 'BS028_70'), date_before3, date_before3, 200000)),
  	# ('CMCC_dpi_aitao_BS028_70', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_70', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_70', 'BS028_70'), date_before3, date_before3, 200000)),
 	# ('CMCC_dpi_aitao_BS028_75', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_75', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_75', 'BS028_75'), date_before3, date_before3, 200000)),
@@ -344,8 +344,8 @@ NUANWA = [
 	# ('CMCC_dpi_aitao_BS028_55_20d_40d', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_55_20d_40d', date_before40, date_before20, 1, nuanwa_city, ('BS028_55', 'BS028_55'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_aitao_BS028_60_20d_40d', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_60_20d_40d', date_before40, date_before20, 1, nuanwa_city, ('BS028_60', 'BS028_60'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_aitao_BS028', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before3, date_before3, 5000)),
-	('CMCC_dpi_aitao_BS028_xz_15d', pd_bx_ALLSQL.bx_aitao_xz.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_xz_15d', date_before15, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before15, date_before3, date_before3, 1500)),
-	('CMCC_dpi_aitao_BS028_xz_15d', pd_bx_ALLSQL.bx_aitao_xz.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_aitao_BS028_xz_15d', date_before15, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before15, date_before3, date_before3, 1500)),
+	# ('CMCC_dpi_aitao_BS028_xz_15d', pd_bx_ALLSQL.bx_aitao_xz.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_xz_15d', date_before15, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before15, date_before3, date_before3, 1500)),
+	# ('CMCC_dpi_aitao_BS028_xz_15d', pd_bx_ALLSQL.bx_aitao_xz.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_aitao_BS028_xz_15d', date_before15, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before15, date_before3, date_before3, 1500)),
 	# ('CMCC_dpi_aitao_BS028_status1', pd_bx_ALLSQL.bx_aitao_status1.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_status1', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before3, date_before3, 2000)),
 	# ('CMCC_dpi_aitao_BS028_status0', pd_bx_ALLSQL.bx_aitao_status0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_status0', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before3, date_before3, 2000)),
 	# ('CMCC_dpi_aitao_BS028_x1', pd_bx_ALLSQL.bx_aitao.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_x1', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before3, date_before3, 200000)),
@@ -362,7 +362,10 @@ NUANWA = [
 
 	# ('CMCC_dpi_cj_100250_10d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100250_10d', date_before10, tomorrow_time, 1, nuanwa_city, ('100250', '100250'), date_before3, date_before3, 2000)),
 	# ('CMCC_dpi_cj_100250_zad_status0', pd_bx_ALLSQL.bx_cj_zad_status0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100250_zad_status0', date_before20, tomorrow_time, 1, nuanwa_city, ('100250', '100250'), date_before3, date_before3, 200000)),
-	# ('CMCC_dpi_cj_100251_10d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100251_10d', date_before10, tomorrow_time, 1, nuanwa_city, ('100251', '100251'), date_before3, date_before3, 200000)),
+	('CMCC_dpi_cj_100251_3d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100251_3d', date_before3, tomorrow_time, 1, nuanwa_city, ('100251', '100251'), date_before3, date_before3, 1000)),
+	('CMCC_dpi_cj_100251_3d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100251_3d', date_before3, tomorrow_time, 1, nuanwa_city, ('100251', '100251'), date_before3, date_before3, 1000)),
+	('CMCC_dpi_cj_100250_3d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100250_3d', date_before3, tomorrow_time, 1, nuanwa_city, ('100250', '100250'), date_before3, date_before3, 689)),
+	('CMCC_dpi_cj_100250_3d', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100250_3d', date_before3, tomorrow_time, 1, nuanwa_city, ('100250', '100250'), date_before3, date_before3, 100000)),
 	# ('CMCC_dpi_cj_100251', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100251', date_before20, tomorrow_time, 1, nuanwa_city, ('100251', '100251'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_cj_100245', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100245', date_before10, tomorrow_time, 1, nuanwa_city, ('100245', '100245'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_cj_100242', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_100242', date_before10, tomorrow_time, 1, nuanwa_city, ('100242', '100242'), date_before3, date_before3, 5000)),
@@ -393,12 +396,12 @@ NUANWA = [
 	# ('CMCC_dpi_cj_101256', pd_bx_ALLSQL.bx_cj.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_cj_101256', date_before20, tomorrow_time, 1, nuanwa_city, ('101256', '101256'), date_before3, date_before3, 2000)),
 
 	# ('CMCC_dpi_yax_BT099_10d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT099_10d', date_before10, tomorrow_time, 1, nuanwa_city, ('BT099', 'BT099'), date_before3, date_before3, 5000)),
-	('CMCC_dpi_yax_BT099_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_yax_BT099_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT099', 'BT099'), date_before3, date_before3, 5000)),
+	# ('CMCC_dpi_yax_BT099_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_dpi_yax_BT099_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT099', 'BT099'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_yax_BT599_10d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT599_10d', date_before10, tomorrow_time, 1, nuanwa_city, ('BT599', 'BT599'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_yax_BT599_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT599_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT599', 'BT599'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_yax_BT583_10d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT583_10d', date_before10, tomorrow_time, 1, nuanwa_city, ('BT583', 'BT583'), date_before3, date_before3, 5000)),
 	# ('CMCC_dpi_yax_BT107_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT107_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT107', 'BT107'), date_before3, date_before3, 5000)),
-	# ('CMCC_dpi_yax_BT541', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541', date_before20, tomorrow_time, 1, nuanwa_city, ('BT541', 'BT541'), date_before3, date_before3, 5000)),
+	('CMCC_dpi_yax_BT541_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541CMCC_dpi_yax_BT541_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT541', 'BT541'), date_before3, date_before3, 10000)),
 	# ('CMCC_dpi_yax_BT984', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541', date_before20, tomorrow_time, 1, nuanwa_city, ('BT984', 'BT984'), date_before3, date_before3, 10000)),
 	# ('CMCC_dpi_yax_BT985', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541', date_before20, tomorrow_time, 1, nuanwa_city, ('BT985', 'BT985'), date_before3, date_before3, 10000)),
 	# ('CMCC_dpi_yax_BT986', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541', date_before20, tomorrow_time, 1, nuanwa_city, ('BT986', 'BT986'), date_before3, date_before3, 10000)),
@@ -436,7 +439,7 @@ NUANWA = [
 	# ('CUCC_dpi_yax_lt_BS050_3d_city_you', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_3d_city_you', date_before5, tomorrow_time, 2, nuanwa_city_you, ('BS050', 'BS050'), date_before3, date_before3, 2000)),
 	# ('CUCC_dpi_yax_lt_BS050_3d_city_lie', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_3d_city_lie', date_before5, tomorrow_time, 2, nuanwa_city_lie, ('BS050', 'BS050'), date_before3, date_before3, 2000)),
 	('CUCC_dpi_yax_lt_BS050_3d_alibx329', pd_bx_ALLSQL.bx_yax_lt_alibx329.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_dpi_yax_lt_BS050_3d_alibx329', date_before5, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), 9800, date_before3, date_before3, 3000)),
-	# ('CUCC_dpi_yax_lt_BS050_3d', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_3d', date_before5, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), date_before3, date_before3, 3000)),
+	('CUCC_dpi_yax_lt_BS050_3d', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_3d', date_before5, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), date_before3, date_before3, 10000)),
 	# ('CUCC_dpi_yax_lt_BS050_with_age_level_0', pd_bx_ALLSQL.bx_yax_lt_with_age.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_with_age_level_0', date_before20, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), 0, date_before3, date_before3, 3000)),
 	# ('CUCC_dpi_yax_lt_BS050_with_age_level_1', pd_bx_ALLSQL.bx_yax_lt_with_age.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_with_age_level_1', date_before20, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), 1, date_before3, date_before3, 3000)),
 	# ('CUCC_dpi_yax_lt_BS050_with_age_level_2', pd_bx_ALLSQL.bx_yax_lt_with_age.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS050_with_age_level_2', date_before20, tomorrow_time, 2, nuanwa_city, ('BS050', 'BS050'), 2, date_before3, date_before3, 3000)),
@@ -470,13 +473,14 @@ NUANWA = [
 	# ('CUCC_dpi_yax_lt_BS057', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS057', date_before20, tomorrow_time, 2, nuanwa_city, ('BS057', 'BS057'), date_before3, date_before3, 10000)),
 
 	# ('CUCC_dpi_yax_lt_BS058_T14', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS058_T14', date_before20, tomorrow_time, 2, nuanwa_city, ('BS058', 'BS058'), date_before3, date_before3, 1000)),
-	# ('CUCC_dpi_yax_lt_BS058', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS058', date_before20, tomorrow_time, 2, nuanwa_city, ('BS058', 'BS058'), date_before3, date_before3, 1000)),
+	('CUCC_dpi_yax_lt_BS058', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS058', date_before20, tomorrow_time, 2, nuanwa_city, ('BS058', 'BS058'), date_before3, date_before3, 1442)),
+	('CUCC_dpi_yax_lt_BS058', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS058', date_before20, tomorrow_time, 2, nuanwa_city, ('BS058', 'BS058'), date_before3, date_before3, 10000)),
 	# ('CUCC_dpi_yax_lt_BS058_3d', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS058_3d', date_before3, tomorrow_time, 2, nuanwa_city, ('BS058', 'BS058'), date_before3, date_before3, 2000)),
 	# ('CUCC_dpi_yax_lt_BS055_3d', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS055_3d', date_before3, tomorrow_time, 2, nuanwa_city, ('BS055', 'BS055'), date_before3, date_before3, 2000)),
 	# ('CUCC_dpi_yax_lt_BS056_3d', pd_bx_ALLSQL.bx_yax_lt.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_dpi_yax_lt_BS056_3d', date_before3, tomorrow_time, 2, nuanwa_city, ('BS056', 'BS056'), date_before3, date_before3, 2000)),
 
-	('CMCC_bx_click_and_alibx329', pd_bx_ALLSQL.bx_click_alibx329.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_and_alibx329', date_before60, date_before30, 1, nuanwa_city, 9800,date_before3, date_before3, 1500)),
-	('CMCC_bx_click_and_alibx329', pd_bx_ALLSQL.bx_click_alibx329.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_and_alibx329', date_before60, date_before30, 1, nuanwa_city, 9800,date_before3, date_before3, 1500)),
+	# ('CMCC_bx_click_and_alibx329', pd_bx_ALLSQL.bx_click_alibx329.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_and_alibx329', date_before60, date_before30, 1, nuanwa_city, 9800,date_before3, date_before3, 1500)),
+	# ('CMCC_bx_click_and_alibx329', pd_bx_ALLSQL.bx_click_alibx329.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_and_alibx329', date_before60, date_before30, 1, nuanwa_city, 9800,date_before3, date_before3, 1500)),
  	('CTCC_bx_click_and_alibx329', pd_bx_ALLSQL.bx_click_alibx329.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_bx_click_and_alibx329', date_before60, date_before30, 0, nuanwa_city, 9800,date_before3, date_before3, 3000)),
 	# ('CMCC_bx_dpi_60d_and_alibx329', pd_bx_ALLSQL.bx_dpi_and_alibx329.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_60d_and_alibx329', date_before60, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 9000, 3000)),
 	# ('CMCC_bx_alibx329', pd_bx_ALLSQL.bx_alibx329.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_alibx329', 9800, 1, nuanwa_city, date_before3, date_before3, 3000)),
@@ -490,20 +494,20 @@ NUANWA = [
 	# ('CUCC_bx_click_and_alibx362', pd_bx_ALLSQL.bx_click_alibx362.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_and_alibx362', date_before60, date_before30, 2, nuanwa_city, 9000,date_before3, date_before3, 3000)),
 	('CTCC_bx_click_and_alibx362', pd_bx_ALLSQL.bx_click_alibx362.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_bx_click_and_alibx362', date_before60, date_before30, 0, nuanwa_city, 9000,date_before3, date_before3, 3000)),
 
-	('CMCC_bx_click_30d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d_and_bxdata', date_before30, tomorrow_time, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 695)),
-	('CMCC_bx_click_30d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_and_bxdata', date_before30, tomorrow_time, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 696)),
-	('CMCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 4564)),
-	('CMCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 4564)),
-	('CUCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 2, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 1077)),
-	('CUCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 2, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 1077)),
+	# ('CMCC_bx_click_30d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d_and_bxdata', date_before30, tomorrow_time, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 695)),
+	# ('CMCC_bx_click_30d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_and_bxdata', date_before30, tomorrow_time, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 696)),
+	# ('CMCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 4564)),
+	# ('CMCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 1, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 4564)),
+	('CUCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 2, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 893)),
+	('CUCC_bx_click_30d_60d_and_bxdata', pd_bx_ALLSQL.bx_click_bxdata.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_60d_and_bxdata', date_before60, date_before30, 2, nuanwa_city, date_before30, tomorrow_time, date_before3, date_before3, 893)),
 
 	# ('CMCC_bx_click_60d_90d_and_alibx362', pd_bx_ALLSQL.bx_click_alibx362.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_60d_90d_and_alibx362', date_before90, date_before60, 1, nuanwa_city, 9000, date_before3, date_before3, 3000)),
 
 	# ('CMCC_xd_click_and_alibx329', pd_bx_ALLSQL.xd_click_alibx329.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_xd_click_and_alibx329', date_before60, date_before30, 1, nuanwa_city, 9800, date_before3, date_before3, 3000)),
 
 	# ('CMCC_bx_click_30d_T0', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d_T0', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 2000)),
-	('CMCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_30d', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 7280)),
-	('CMCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 7280)),
+	('CMCC_bx_click_7d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_bx_click_7d', date_before7, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 3000)),
+	('CMCC_bx_click_7d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_7d', date_before7, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 3000)),
 	# ('CMCC_bx_click_30d_T0', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_T0', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 2000)),
 	# ('CMCC_bx_click_30d_Q26', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d_Q26', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 2000)),
 	# ('CMCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_click_30d', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 20000)),
@@ -524,8 +528,8 @@ NUANWA = [
 
 	# ('CUCC_bx_click_30d_Q2', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_Q2', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 2000),),
 	# ('CUCC_bx_click_30d_T20', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_T20', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 1500)),
-	('CUCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_30d', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 466)),
-	('CUCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 466)),
+	('CUCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_30d', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 4700)),
+	('CUCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 4700)),
 	# ('CUCC_bx_click_30d_T0', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_T0', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 200000),),
 	# ('CUCC_bx_click_30d_60d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_30d_60d', date_before60, date_before30, 2, nuanwa_city, date_before3, date_before3, 5000)),
 	# ('CUCC_bx_click_60d_90d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_click_60d_90d', date_before90, date_before60, 2, nuanwa_city, date_before3, date_before3, 10000)),
@@ -546,6 +550,8 @@ NUANWA = [
 
 	('CMCC_bx_dpi_7d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_7d_and_bxzk0', date_before7, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 100000)),
 	# ('CMCC_bx_dpi_30d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_30d_and_bxzk0', date_before30, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 2000)),
+	('CUCC_bx_dpi_30d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_dpi_30d_and_bxzk0', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 3188)),
+	('CUCC_bx_dpi_30d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bx_dpi_30d_and_bxzk0', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 3188)),
 	# ('CMCC_bx_dpi_30d_60d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_30d_60d_and_bxzk0', date_before60, date_before30, 1, nuanwa_city, date_before3, date_before3, 2000)),
 	('CTCC_bx_dpi_30d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_bx_dpi_30d_and_bxzk0', date_before30, tomorrow_time, 0, nuanwa_city, date_before3, date_before3, 3000)),
 	('CTCC_bx_dpi_60d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_bx_dpi_60d_and_bxzk0', date_before60, tomorrow_time, 0, nuanwa_city, date_before3, date_before3, 3000)),
@@ -776,15 +782,15 @@ caogao = [
 	# # ('CUCC_bxdata_biz_2', pd_bx_ALLSQL.nature_snow_biz_before.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_bxdata_biz_2', 20250508, 20250508, 2, nuanwa_city, 2, date_before3, date_before3, 200000)),
 	# # ('CTCC_bxdata_biz_2', pd_bx_ALLSQL.nature_snow_biz_before.format(tomorrow_time, 'MOFANG_CPA_NW', 'CTCC_bxdata_biz_2', 20250508, 20250508, 0, nuanwa_city, 2, date_before3, date_before3, 200000)),
 
-	('CMCC_zh_ysj_30d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_30d', get_datetime4(tomorrow_time, 30), tomorrow_time, 1, nuanwa_city, 1, (1, 2), 5000)),
-	('CMCC_zh_ysj_30_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_30_60d', get_datetime4(tomorrow_time, 60), get_datetime4(tomorrow_time, 30), 1, nuanwa_city, 1, (1, 2), 5000)),
-	('CMCC_zh_ysj_60_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_60_90d', get_datetime4(tomorrow_time, 90), get_datetime4(tomorrow_time, 60), 1, nuanwa_city, 1, (1, 2), 5000)),
+	# ('CMCC_zh_ysj_30d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_30d', get_datetime4(tomorrow_time, 30), tomorrow_time, 1, nuanwa_city, 1, (1, 2), 5000)),
+	# ('CMCC_zh_ysj_30_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_30_60d', get_datetime4(tomorrow_time, 60), get_datetime4(tomorrow_time, 30), 1, nuanwa_city, 1, (1, 2), 5000)),
+	# ('CMCC_zh_ysj_60_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_ysj_60_90d', get_datetime4(tomorrow_time, 90), get_datetime4(tomorrow_time, 60), 1, nuanwa_city, 1, (1, 2), 5000)),
 
-	('CMCC_zh_wsj_3d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_3d', get_datetime4(tomorrow_time, 5), tomorrow_time, 1, nuanwa_city, 0, (1, 2, 3), 200000)),
+	# ('CMCC_zh_wsj_3d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_3d', get_datetime4(tomorrow_time, 5), tomorrow_time, 1, nuanwa_city, 0, (1, 2, 3), 200000)),
 	('CTCC_zh_wsj_3d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_zh_wsj_3d', get_datetime4(tomorrow_time, 5), tomorrow_time, 0, nuanwa_city, 0, (1, 2, 3), 200000)),
 	('CUCC_zh_wsj_3d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_3d', get_datetime4(tomorrow_time, 5), tomorrow_time, 2, nuanwa_city, 0, (1, 2, 3), 200000)),
 
-	('CMCC_zh_wsj_15d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_15d', get_datetime4(tomorrow_time, 15), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 200000)),
+	# ('CMCC_zh_wsj_15d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_15d', get_datetime4(tomorrow_time, 15), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 200000)),
 	('CTCC_zh_wsj_15d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_zh_wsj_15d', get_datetime4(tomorrow_time, 15), tomorrow_time, 0, nuanwa_city, 0, (1, 2), 200000)),
 	('CUCC_zh_wsj_15d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_15d', get_datetime4(tomorrow_time, 15), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 200000)),
 
@@ -792,21 +798,21 @@ caogao = [
 	('CTCC_zh_wsj_30d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_zh_wsj_30d', get_datetime4(tomorrow_time, 30), tomorrow_time, 0, nuanwa_city, 0, (1, 2), 200000)),
 	('CUCC_zh_wsj_30d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_30d', get_datetime4(tomorrow_time, 30), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 200000)),
 
-	('CMCC_zh_wsj_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_60d', get_datetime4(tomorrow_time, 60), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 200000)),
+	# ('CMCC_zh_wsj_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_60d', get_datetime4(tomorrow_time, 60), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 200000)),
 	('CTCC_zh_wsj_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_zh_wsj_60d', get_datetime4(tomorrow_time, 60), tomorrow_time, 0, nuanwa_city, 0, (1, 2), 200000)),
 	('CUCC_zh_wsj_60d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_60d', get_datetime4(tomorrow_time, 60), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 200000)),
 
-	('CMCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 1304)),
-	('CMCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 1304)),
+	# ('CMCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CMCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 1304)),
+	# ('CMCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 1, nuanwa_city, 0, (1, 2), 1304)),
 	('CTCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CTCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 0, nuanwa_city, 0, (1, 2), 10000)),
 	('CUCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 529)),
 	('CUCC_zh_wsj_90d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_zh_wsj_90d', get_datetime4(tomorrow_time, 90), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 530)),
 
-	('CUCC_zh_wsj_120d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_120d', get_datetime4(tomorrow_time, 120), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 2610)),
-	('CUCC_zh_wsj_120d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_zh_wsj_120d', get_datetime4(tomorrow_time, 120), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 2610)),
+	('CUCC_zh_wsj_120d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_120d', get_datetime4(tomorrow_time, 120), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 3188)),
+	('CUCC_zh_wsj_120d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_zh_wsj_120d', get_datetime4(tomorrow_time, 120), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 3188)),
 
-	('CUCC_zh_wsj_180d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_180d', get_datetime4(tomorrow_time, 180), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 952)),
-	('CUCC_zh_wsj_180d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_zh_wsj_180d', get_datetime4(tomorrow_time, 180), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 952)),
+	('CUCC_zh_wsj_180d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_180d', get_datetime4(tomorrow_time, 180), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 1066)),
+	('CUCC_zh_wsj_180d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'MOFANG_CPA_NW', 'CUCC_zh_wsj_180d', get_datetime4(tomorrow_time, 180), tomorrow_time, 2, nuanwa_city, 0, (1, 2), 10000)),
 
 	('CUCC_zh_wsj_dayu_180d', pd_bx_ALLSQL.sample_taikang_duodian_2.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_zh_wsj_dayu_180d', 20241015, get_datetime4(tomorrow_time, 180), 2, nuanwa_city, 0, (1, 2), 2000)),
 
@@ -883,7 +889,8 @@ BUSHU = [
 	# ('CUCC_bx_click_30d', pd_bx_ALLSQL.bx_click.format(tomorrow_time, 'ZHONGANMF_CPA_NW', 'CUCC_bx_click_30d', date_before30, tomorrow_time, 2, nuanwa_city, date_before3, date_before3, 3000)),
 	# ('CMCC_dpi_aitao_BS028_65_badclick', pd_bx_ALLSQL.bx_aitao_badclick.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_65_badclick', date_before20, tomorrow_time, 1, nuanwa_city, ('BS028_65', 'BS028_65'), date_before3, date_before3, 3000)),
 	# ('CMCC_dpi_aitao_BS028_xz_15d', pd_bx_ALLSQL.bx_aitao_xz.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_aitao_BS028_xz_15d', date_before15, tomorrow_time, 1, nuanwa_city, ('BS028', 'BS028'), date_before15, date_before3, date_before3, 5000)),
-	('CMCC_bx_dpi_7d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_7d_and_bxzk0', date_before7, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 100000)),
+	# ('CMCC_bx_dpi_7d_and_bxzk0', pd_bx_ALLSQL.bx_dpi_and_bxzk0.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_bx_dpi_7d_and_bxzk0', date_before7, tomorrow_time, 1, nuanwa_city, date_before3, date_before3, 100000)),
+	('CMCC_dpi_yax_BT541_3d', pd_bx_ALLSQL.bx_yax.format(tomorrow_time, 'MOFANG_CPA_NW', 'CMCC_dpi_yax_BT541CMCC_dpi_yax_BT541_3d', date_before5, tomorrow_time, 1, nuanwa_city, ('BT541', 'BT541'), date_before3, date_before3, 10000)),
 
 ]
 ZHONGANMF_CPA_NW = [
@@ -907,9 +914,9 @@ HL = [
 # region
 
 bank_list = {
-	# '02caogao': caogao,
-	# '03NUANWA': NUANWA,
-	'01BUSHU': BUSHU,
+	'02caogao': caogao,
+	'03NUANWA': NUANWA,
+	# '01BUSHU': BUSHU,
 	# 'HL':HL
 }
 
@@ -936,21 +943,21 @@ def list_run():
 	# cursor.execute(push_tbx_delete)
 	# print("push_tbx_delete is over !!!")
 	# I.清暖哇表
-	print("开始清暖哇表")
-	cursor.execute(push_nwtbx_delete)
-	print("暖哇数据已清除 !!!")
-	# II.插入3天营销
-	print(ruku3d)
-	cursor.execute(ruku3d)
-	print("ruku3d is over !!!")
-	# III.插入历史撞库不可营销数据
-	print(zk)
-	cursor.execute(zk)
-	print("zk is over !!!")
-	# IV.插入保险营销黑名单
-	print(black)
-	cursor.execute(black)
-	print("black is over !!!")
+	# print("开始清暖哇表")
+	# cursor.execute(push_nwtbx_delete)
+	# print("暖哇数据已清除 !!!")
+	# # II.插入3天营销
+	# print(ruku3d)
+	# cursor.execute(ruku3d)
+	# print("ruku3d is over !!!")
+	# # III.插入历史撞库不可营销数据
+	# print(zk)
+	# cursor.execute(zk)
+	# print("zk is over !!!")
+	# # IV.插入保险营销黑名单
+	# print(black)
+	# cursor.execute(black)
+	# print("black is over !!!")
 
 	print(today_time + "data_save_list begin   !!!")
 
